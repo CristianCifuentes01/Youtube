@@ -13,6 +13,7 @@ public class Ejercicio_12 {
 		int cantidad;
 		double iva;
 		
+		
 		System.out.println("Escribe el nombre del producto: ");
 		nombreProducto=entrada.nextLine();
 		System.out.println("Escribe el precio unitario del producto: ");
