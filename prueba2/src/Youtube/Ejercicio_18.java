@@ -6,7 +6,7 @@ public class Ejercicio_18 {
 	
 	public static void main(String args[]) {
 		Scanner entrada=new Scanner(System.in);
-		boolean[] mesas=new boolean[10];
+		boolean[] mesas=new boolean[10];// creacion de arreglo para 10 mesas 
 		
 		for(int i=0;i<mesas.length;i++) {
 			mesas[i]=true;//mesas disponibles 
@@ -55,7 +55,7 @@ public class Ejercicio_18 {
 	}
 	
 	public static void verificarDisponiblidadMesa(boolean mesas[], int numMesa) {
-		if(numMesa<1||numMesa>10) {
+		if(numMesa<1||numMesa>10) {//Verificar el rango entre 1 y 10 de la variable entrante 
 			System.out.println("Error: el valor tiene que estar entre 1 y 10. ");
 			return;
 		}
@@ -67,24 +67,24 @@ public class Ejercicio_18 {
 	}
 	
 	public static void reservarMesa(boolean mesas[], int numMesa) {
-		if(numMesa<1||numMesa>10) {
+		if(numMesa<1||numMesa>10) {//Verificar el rango entre 1 y 10 de la variable entrante
 			System.out.println("Error: el valor tiene que estar entre 1 y 10. ");
 			return;
 		}
 		if(mesas[numMesa-1]) {
-			mesas[numMesa-1]=false;
+			mesas[numMesa-1]=false;// cambio de estado a no disponible 
 			System.out.println("La mesa "+numMesa+ " se reservó.");
 		}else {
 			System.out.println("La mesa "+numMesa+ " ya esta reservada.");
 		}	
 	}
 	public static void cancelarReserva(boolean mesas[], int numMesa) {
-		if(numMesa<1||numMesa>10) {
+		if(numMesa<1||numMesa>10) {//Verificar el rango entre 1 y 10 de la variable entrante
 			System.out.println("Error: el valor tiene que estar entre 1 y 10. ");
 			return;
 		}
 		if(mesas[numMesa-1]==false) {
-			mesas[numMesa-1]=true;
+			mesas[numMesa-1]=true;// cambio de estado a disponible 
 			System.out.println("se canceló la reserva de la mesa: "+ numMesa);
 		}else {
 			System.out.println("La mesa "+numMesa+ " ya estaba disponible");
@@ -92,7 +92,16 @@ public class Ejercicio_18 {
 	}
 	public static void mostrarEstadoMesas(boolean mesas[]) {
 		for(int i=0; i<mesas.length;i++) {
-			String estado=mesas[i]? "Disponible": "No Disponible";
+			String estado=mesas[i]? "Disponible": "No Disponible";//darle valor a estado
+			
+			/* 
+			 //Lo anterior es lo mismo que hacer lo siguiente 
+			 if(mesas[i]){
+			 	estado="Disponible";
+			 }else{
+			 	estado="No Disponible";
+			 } 
+			 */
 			System.out.println("La mesa "+(i+1)+ " esta: "+ estado);
 		}
 	}
