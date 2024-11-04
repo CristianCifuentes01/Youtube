@@ -1,6 +1,6 @@
 package Youtube;
 
-public class Ejercicio_6 {
+public class Ejercicio_06 {
 
 	public static void main(String[] args) {
 		

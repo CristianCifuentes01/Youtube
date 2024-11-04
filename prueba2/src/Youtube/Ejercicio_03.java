@@ -3,7 +3,7 @@ package Youtube;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class Ejercicio_3 {
+public class Ejercicio_03 {
 
 	public static void main(String[] args) {
 		

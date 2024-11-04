@@ -1,7 +1,7 @@
 package Youtube;
 import java.util.Scanner;
 //Programa que lea una cantidad de grados centígrados y la pase a grados Fahrenheit, y viceversa 
-public class Ejercicio_2 {
+public class Ejercicio_02 {
 
 	public static void main(String[] args) {
 		

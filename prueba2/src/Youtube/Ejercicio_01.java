@@ -3,7 +3,7 @@ package Youtube;
 //Programa Java que lea dos números enteros por teclado y los muestre por pantalla.
 import java.util.Scanner;
 
-public class Ejercicio_1 {
+public class Ejercicio_01 {
 
 	public static void main(String[] args) {
 		Scanner entrada=new Scanner(System.in);

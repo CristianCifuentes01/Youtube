@@ -2,7 +2,7 @@ package Youtube;
 
 import java.util.Scanner;
 
-public class Ejercicio_9 {
+public class Ejercicio_09 {
 
 	public static void main(String[] args) {
 		Scanner entrada =new Scanner(System.in);

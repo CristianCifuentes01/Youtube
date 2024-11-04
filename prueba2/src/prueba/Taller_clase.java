@@ -1,10 +1,10 @@
 package prueba;
 
 import java.util.Scanner;
-//juan sebastian obando 1000593423
-//cristian andres cifuentes 1108639445
-//juan david ledesma 1111540889
-//santiago restrepo ortega 1105364722  
+//juan sebastian obando 
+//cristian andres cifuentes 
+//juan david ledesma 
+//santiago restrepo ortega   
 
 public class Taller_clase {
 	
